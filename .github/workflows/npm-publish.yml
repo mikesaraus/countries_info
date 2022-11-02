@@ -6,7 +6,7 @@ name: Node.js Package
 on:
   release:
     types: [created]
-    
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,8 +18,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm test
+      - run: npm i
 
   publish-npm:
     needs: build
