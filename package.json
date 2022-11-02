@@ -1,14 +1,14 @@
 {
-  "name": "countries_info",
+  "name": "country-information",
   "version": "1.0.0",
-  "description": "Countries Information",
-  "main": "countries_info.js",
+  "description": "Country Information",
+  "main": "country-information.js",
   "scripts": {
     "test": "echo 'No Test Found'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikesaraus/countries_info.git"
+    "url": "git+https://github.com/mikesaraus/country-information.git"
   },
   "keywords": [
     "country"
@@ -16,7 +16,7 @@
   "author": "mikesaraus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mikesaraus/countries_info/issues"
+    "url": "https://github.com/mikesaraus/country-information/issues"
   },
-  "homepage": "https://github.com/mikesaraus/countries_info#readme"
+  "homepage": "https://github.com/mikesaraus/country-information#readme"
 }
