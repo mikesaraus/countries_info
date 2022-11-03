@@ -1,5 +1,7 @@
-exports.default = [
-  {
+'use strict'
+
+const country = {
+  af: {
     name: 'Afghanistan',
     code: 'AF',
     capital: 'Kabul',
@@ -17,7 +19,7 @@ exports.default = [
     isoCode: '004',
     flag: 'https://mikesaraus.github.io/per-country/flag/af.svg',
   },
-  {
+  al: {
     name: 'Albania',
     code: 'AL',
     capital: 'Tirana',
@@ -35,7 +37,7 @@ exports.default = [
     isoCode: '008',
     flag: 'https://mikesaraus.github.io/per-country/flag/al.svg',
   },
-  {
+  dz: {
     name: 'Algeria',
     code: 'DZ',
     capital: 'Algiers',
@@ -53,7 +55,7 @@ exports.default = [
     isoCode: '012',
     flag: 'https://mikesaraus.github.io/per-country/flag/dz.svg',
   },
-  {
+  as: {
     name: 'American Samoa',
     code: 'AS',
     capital: 'Pago Pago',
@@ -71,7 +73,7 @@ exports.default = [
     isoCode: '016',
     flag: 'https://mikesaraus.github.io/per-country/flag/as.svg',
   },
-  {
+  ad: {
     name: 'Andorra',
     code: 'AD',
     capital: 'Andorra la Vella',
@@ -89,7 +91,7 @@ exports.default = [
     isoCode: '020',
     flag: 'https://mikesaraus.github.io/per-country/flag/ad.svg',
   },
-  {
+  ao: {
     name: 'Angola',
     code: 'AO',
     capital: 'Luanda',
@@ -107,7 +109,7 @@ exports.default = [
     isoCode: '024',
     flag: 'https://mikesaraus.github.io/per-country/flag/ao.svg',
   },
-  {
+  ai: {
     name: 'Anguilla',
     code: 'AI',
     capital: 'The Valley',
@@ -125,7 +127,7 @@ exports.default = [
     isoCode: '660',
     flag: 'https://mikesaraus.github.io/per-country/flag/ai.svg',
   },
-  {
+  ag: {
     name: 'Antigua and Barbuda',
     code: 'AG',
     capital: "Saint John's",
@@ -143,7 +145,7 @@ exports.default = [
     isoCode: '028',
     flag: 'https://mikesaraus.github.io/per-country/flag/ag.svg',
   },
-  {
+  ar: {
     name: 'Argentina',
     code: 'AR',
     capital: 'Buenos Aires',
@@ -161,7 +163,7 @@ exports.default = [
     isoCode: '032',
     flag: 'https://mikesaraus.github.io/per-country/flag/ar.svg',
   },
-  {
+  am: {
     name: 'Armenia',
     code: 'AM',
     capital: 'Yerevan',
@@ -179,7 +181,7 @@ exports.default = [
     isoCode: '051',
     flag: 'https://mikesaraus.github.io/per-country/flag/am.svg',
   },
-  {
+  aw: {
     name: 'Aruba',
     code: 'AW',
     capital: 'Oranjestad',
@@ -197,7 +199,7 @@ exports.default = [
     isoCode: '533',
     flag: 'https://mikesaraus.github.io/per-country/flag/aw.svg',
   },
-  {
+  au: {
     name: 'Australia',
     code: 'AU',
     capital: 'Canberra',
@@ -215,7 +217,7 @@ exports.default = [
     isoCode: '036',
     flag: 'https://mikesaraus.github.io/per-country/flag/au.svg',
   },
-  {
+  az: {
     name: 'Azerbaijan',
     code: 'AZ',
     capital: 'Baku',
@@ -233,7 +235,7 @@ exports.default = [
     isoCode: '031',
     flag: 'https://mikesaraus.github.io/per-country/flag/az.svg',
   },
-  {
+  bs: {
     name: 'Bahamas',
     code: 'BS',
     capital: 'Nassau',
@@ -251,7 +253,7 @@ exports.default = [
     isoCode: '044',
     flag: 'https://mikesaraus.github.io/per-country/flag/bs.svg',
   },
-  {
+  bh: {
     name: 'Bahrain',
     code: 'BH',
     capital: 'Manama',
@@ -269,7 +271,7 @@ exports.default = [
     isoCode: '048',
     flag: 'https://mikesaraus.github.io/per-country/flag/bh.svg',
   },
-  {
+  bd: {
     name: 'Bangladesh',
     code: 'BD',
     capital: 'Dhaka',
@@ -287,7 +289,7 @@ exports.default = [
     isoCode: '050',
     flag: 'https://mikesaraus.github.io/per-country/flag/bd.svg',
   },
-  {
+  bb: {
     name: 'Barbados',
     code: 'BB',
     capital: 'Bridgetown',
@@ -305,7 +307,7 @@ exports.default = [
     isoCode: '052',
     flag: 'https://mikesaraus.github.io/per-country/flag/bb.svg',
   },
-  {
+  by: {
     name: 'Belarus',
     code: 'BY',
     capital: 'Minsk',
@@ -323,7 +325,7 @@ exports.default = [
     isoCode: '112',
     flag: 'https://mikesaraus.github.io/per-country/flag/by.svg',
   },
-  {
+  be: {
     name: 'Belgium',
     code: 'BE',
     capital: 'Brussels',
@@ -341,7 +343,7 @@ exports.default = [
     isoCode: '056',
     flag: 'https://mikesaraus.github.io/per-country/flag/be.svg',
   },
-  {
+  bz: {
     name: 'Belize',
     code: 'BZ',
     capital: 'Belmopan',
@@ -359,7 +361,7 @@ exports.default = [
     isoCode: '084',
     flag: 'https://mikesaraus.github.io/per-country/flag/bz.svg',
   },
-  {
+  bj: {
     name: 'Benin',
     code: 'BJ',
     capital: 'Porto-Novo',
@@ -377,7 +379,7 @@ exports.default = [
     isoCode: '204',
     flag: 'https://mikesaraus.github.io/per-country/flag/bj.svg',
   },
-  {
+  bm: {
     name: 'Bermuda',
     code: 'BM',
     capital: 'Hamilton',
@@ -395,7 +397,7 @@ exports.default = [
     isoCode: '060',
     flag: 'https://mikesaraus.github.io/per-country/flag/bm.svg',
   },
-  {
+  bt: {
     name: 'Bhutan',
     code: 'BT',
     capital: 'Thimphu',
@@ -413,7 +415,7 @@ exports.default = [
     isoCode: '064',
     flag: 'https://mikesaraus.github.io/per-country/flag/bt.svg',
   },
-  {
+  bo: {
     name: 'Bolivia (Plurinational State of)',
     code: 'BO',
     capital: 'Sucre',
@@ -431,7 +433,7 @@ exports.default = [
     isoCode: '068',
     flag: 'https://mikesaraus.github.io/per-country/flag/bo.svg',
   },
-  {
+  ba: {
     name: 'Bosnia and Herzegovina',
     code: 'BA',
     capital: 'Sarajevo',
@@ -449,7 +451,7 @@ exports.default = [
     isoCode: '070',
     flag: 'https://mikesaraus.github.io/per-country/flag/ba.svg',
   },
-  {
+  bw: {
     name: 'Botswana',
     code: 'BW',
     capital: 'Gaborone',
@@ -467,7 +469,7 @@ exports.default = [
     isoCode: '072',
     flag: 'https://mikesaraus.github.io/per-country/flag/bw.svg',
   },
-  {
+  br: {
     name: 'Brazil',
     code: 'BR',
     capital: 'Brasília',
@@ -485,7 +487,7 @@ exports.default = [
     isoCode: '076',
     flag: 'https://mikesaraus.github.io/per-country/flag/br.svg',
   },
-  {
+  io: {
     name: 'British Indian Ocean Territory',
     code: 'IO',
     capital: 'Diego Garcia',
@@ -503,7 +505,7 @@ exports.default = [
     isoCode: '086',
     flag: 'https://mikesaraus.github.io/per-country/flag/io.svg',
   },
-  {
+  vg: {
     name: 'Virgin Islands (British)',
     code: 'VG',
     capital: 'Road Town',
@@ -521,7 +523,7 @@ exports.default = [
     isoCode: '092',
     flag: 'https://mikesaraus.github.io/per-country/flag/vg.svg',
   },
-  {
+  vi: {
     name: 'Virgin Islands (U.S.)',
     code: 'VI',
     capital: 'Charlotte Amalie',
@@ -539,7 +541,7 @@ exports.default = [
     isoCode: '850',
     flag: 'https://mikesaraus.github.io/per-country/flag/vi.svg',
   },
-  {
+  bn: {
     name: 'Brunei Darussalam',
     code: 'BN',
     capital: 'Bandar Seri Begawan',
@@ -557,7 +559,7 @@ exports.default = [
     isoCode: '096',
     flag: 'https://mikesaraus.github.io/per-country/flag/bn.svg',
   },
-  {
+  bg: {
     name: 'Bulgaria',
     code: 'BG',
     capital: 'Sofia',
@@ -575,7 +577,7 @@ exports.default = [
     isoCode: '100',
     flag: 'https://mikesaraus.github.io/per-country/flag/bg.svg',
   },
-  {
+  bf: {
     name: 'Burkina Faso',
     code: 'BF',
     capital: 'Ouagadougou',
@@ -593,7 +595,7 @@ exports.default = [
     isoCode: '854',
     flag: 'https://mikesaraus.github.io/per-country/flag/bf.svg',
   },
-  {
+  bi: {
     name: 'Burundi',
     code: 'BI',
     capital: 'Bujumbura',
@@ -611,7 +613,7 @@ exports.default = [
     isoCode: '108',
     flag: 'https://mikesaraus.github.io/per-country/flag/bi.svg',
   },
-  {
+  kh: {
     name: 'Cambodia',
     code: 'KH',
     capital: 'Phnom Penh',
@@ -629,7 +631,7 @@ exports.default = [
     isoCode: '116',
     flag: 'https://mikesaraus.github.io/per-country/flag/kh.svg',
   },
-  {
+  cm: {
     name: 'Cameroon',
     code: 'CM',
     capital: 'Yaoundé',
@@ -647,7 +649,7 @@ exports.default = [
     isoCode: '120',
     flag: 'https://mikesaraus.github.io/per-country/flag/cm.svg',
   },
-  {
+  ca: {
     name: 'Canada',
     code: 'CA',
     capital: 'Ottawa',
@@ -665,7 +667,7 @@ exports.default = [
     isoCode: '124',
     flag: 'https://mikesaraus.github.io/per-country/flag/ca.svg',
   },
-  {
+  cv: {
     name: 'Cabo Verde',
     code: 'CV',
     capital: 'Praia',
@@ -685,7 +687,7 @@ exports.default = [
     isoCode: '132',
     flag: 'https://mikesaraus.github.io/per-country/flag/cv.svg',
   },
-  {
+  ky: {
     name: 'Cayman Islands',
     code: 'KY',
     capital: 'George Town',
@@ -704,7 +706,7 @@ exports.default = [
     isoCode: '136',
     flag: 'https://mikesaraus.github.io/per-country/flag/ky.svg',
   },
-  {
+  cf: {
     name: 'Central African Republic',
     code: 'CF',
     capital: 'Bangui',
@@ -722,7 +724,7 @@ exports.default = [
     isoCode: '140',
     flag: 'https://mikesaraus.github.io/per-country/flag/cf.svg',
   },
-  {
+  cl: {
     name: 'Chile',
     code: 'CL',
     capital: 'Santiago',
@@ -742,7 +744,7 @@ exports.default = [
     isoCode: '152',
     flag: 'https://mikesaraus.github.io/per-country/flag/cl.svg',
   },
-  {
+  cn: {
     name: 'China',
     code: 'CN',
     capital: 'Beijing',
@@ -760,7 +762,7 @@ exports.default = [
     isoCode: '156',
     flag: 'https://mikesaraus.github.io/per-country/flag/cn.svg',
   },
-  {
+  co: {
     name: 'Colombia',
     code: 'CO',
     capital: 'Bogotá',
@@ -778,7 +780,7 @@ exports.default = [
     isoCode: '170',
     flag: 'https://mikesaraus.github.io/per-country/flag/co.svg',
   },
-  {
+  km: {
     name: 'Comoros',
     code: 'KM',
     capital: 'Moroni',
@@ -796,7 +798,7 @@ exports.default = [
     isoCode: '174',
     flag: 'https://mikesaraus.github.io/per-country/flag/km.svg',
   },
-  {
+  cg: {
     name: 'Congo',
     code: 'CG',
     capital: 'Brazzaville',
@@ -814,7 +816,7 @@ exports.default = [
     isoCode: '178',
     flag: 'https://mikesaraus.github.io/per-country/flag/cg.svg',
   },
-  {
+  cd: {
     name: 'Congo (Democratic Republic of the)',
     code: 'CD',
     capital: 'Kinshasa',
@@ -832,7 +834,7 @@ exports.default = [
     isoCode: '180',
     flag: 'https://mikesaraus.github.io/per-country/flag/cd.svg',
   },
-  {
+  ck: {
     name: 'Cook Islands',
     code: 'CK',
     capital: 'Avarua',
@@ -850,7 +852,7 @@ exports.default = [
     isoCode: '184',
     flag: 'https://mikesaraus.github.io/per-country/flag/ck.svg',
   },
-  {
+  cr: {
     name: 'Costa Rica',
     code: 'CR',
     capital: 'San José',
@@ -868,7 +870,7 @@ exports.default = [
     isoCode: '188',
     flag: 'https://mikesaraus.github.io/per-country/flag/cr.svg',
   },
-  {
+  hr: {
     name: 'Croatia',
     code: 'HR',
     capital: 'Zagreb',
@@ -886,7 +888,7 @@ exports.default = [
     isoCode: '191',
     flag: 'https://mikesaraus.github.io/per-country/flag/hr.svg',
   },
-  {
+  cu: {
     name: 'Cuba',
     code: 'CU',
     capital: 'Havana',
@@ -904,7 +906,7 @@ exports.default = [
     isoCode: '192',
     flag: 'https://mikesaraus.github.io/per-country/flag/cu.svg',
   },
-  {
+  cy: {
     name: 'Cyprus',
     code: 'CY',
     capital: 'Nicosia',
@@ -922,7 +924,7 @@ exports.default = [
     isoCode: '196',
     flag: 'https://mikesaraus.github.io/per-country/flag/cy.svg',
   },
-  {
+  cz: {
     name: 'Czech Republic',
     code: 'CZ',
     capital: 'Prague',
@@ -940,7 +942,7 @@ exports.default = [
     isoCode: '203',
     flag: 'https://mikesaraus.github.io/per-country/flag/cz.svg',
   },
-  {
+  dk: {
     name: 'Denmark',
     code: 'DK',
     capital: 'Copenhagen',
@@ -958,7 +960,7 @@ exports.default = [
     isoCode: '208',
     flag: 'https://mikesaraus.github.io/per-country/flag/dk.svg',
   },
-  {
+  dj: {
     name: 'Djibouti',
     code: 'DJ',
     capital: 'Djibouti',
@@ -976,7 +978,7 @@ exports.default = [
     isoCode: '262',
     flag: 'https://mikesaraus.github.io/per-country/flag/dj.svg',
   },
-  {
+  dm: {
     name: 'Dominica',
     code: 'DM',
     capital: 'Roseau',
@@ -994,7 +996,7 @@ exports.default = [
     isoCode: '212',
     flag: 'https://mikesaraus.github.io/per-country/flag/dm.svg',
   },
-  {
+  do: {
     name: 'Dominican Republic',
     code: 'DO',
     capital: 'Santo Domingo',
@@ -1012,7 +1014,7 @@ exports.default = [
     isoCode: '214',
     flag: 'https://mikesaraus.github.io/per-country/flag/do.svg',
   },
-  {
+  ec: {
     name: 'Ecuador',
     code: 'EC',
     capital: 'Quito',
@@ -1030,7 +1032,7 @@ exports.default = [
     isoCode: '218',
     flag: 'https://mikesaraus.github.io/per-country/flag/ec.svg',
   },
-  {
+  eg: {
     name: 'Egypt',
     code: 'EG',
     capital: 'Cairo',
@@ -1048,7 +1050,7 @@ exports.default = [
     isoCode: '818',
     flag: 'https://mikesaraus.github.io/per-country/flag/eg.svg',
   },
-  {
+  sv: {
     name: 'El Salvador',
     code: 'SV',
     capital: 'San Salvador',
@@ -1066,7 +1068,7 @@ exports.default = [
     isoCode: '222',
     flag: 'https://mikesaraus.github.io/per-country/flag/sv.svg',
   },
-  {
+  gq: {
     name: 'Equatorial Guinea',
     code: 'GQ',
     capital: 'Malabo',
@@ -1086,7 +1088,7 @@ exports.default = [
     isoCode: '226',
     flag: 'https://mikesaraus.github.io/per-country/flag/gq.svg',
   },
-  {
+  er: {
     name: 'Eritrea',
     code: 'ER',
     capital: 'Asmara',
@@ -1104,7 +1106,7 @@ exports.default = [
     isoCode: '232',
     flag: 'https://mikesaraus.github.io/per-country/flag/er.svg',
   },
-  {
+  ee: {
     name: 'Estonia',
     code: 'EE',
     capital: 'Tallinn',
@@ -1122,7 +1124,7 @@ exports.default = [
     isoCode: '233',
     flag: 'https://mikesaraus.github.io/per-country/flag/ee.svg',
   },
-  {
+  et: {
     name: 'Ethiopia',
     code: 'ET',
     capital: 'Addis Ababa',
@@ -1140,7 +1142,7 @@ exports.default = [
     isoCode: '231',
     flag: 'https://mikesaraus.github.io/per-country/flag/et.svg',
   },
-  {
+  fk: {
     name: 'Falkland Islands (Malvinas)',
     code: 'FK',
     capital: 'Stanley',
@@ -1158,7 +1160,7 @@ exports.default = [
     isoCode: '238',
     flag: 'https://mikesaraus.github.io/per-country/flag/fk.svg',
   },
-  {
+  fo: {
     name: 'Faroe Islands',
     code: 'FO',
     capital: 'Tórshavn',
@@ -1176,7 +1178,7 @@ exports.default = [
     isoCode: '234',
     flag: 'https://mikesaraus.github.io/per-country/flag/fo.svg',
   },
-  {
+  fj: {
     name: 'Fiji',
     code: 'FJ',
     capital: 'Suva',
@@ -1194,7 +1196,7 @@ exports.default = [
     isoCode: '242',
     flag: 'https://mikesaraus.github.io/per-country/flag/fj.svg',
   },
-  {
+  fi: {
     name: 'Finland',
     code: 'FI',
     capital: 'Helsinki',
@@ -1214,7 +1216,7 @@ exports.default = [
     isoCode: '246',
     flag: 'https://mikesaraus.github.io/per-country/flag/fi.svg',
   },
-  {
+  fr: {
     name: 'France',
     code: 'FR',
     capital: 'Paris',
@@ -1233,7 +1235,7 @@ exports.default = [
     isoCode: '250',
     flag: 'https://mikesaraus.github.io/per-country/flag/fr.svg',
   },
-  {
+  gf: {
     name: 'French Guiana',
     code: 'GF',
     capital: 'Cayenne',
@@ -1251,7 +1253,7 @@ exports.default = [
     isoCode: '254',
     flag: 'https://mikesaraus.github.io/per-country/flag/gf.svg',
   },
-  {
+  pf: {
     name: 'French Polynesia',
     code: 'PF',
     capital: 'Papeetē',
@@ -1269,7 +1271,7 @@ exports.default = [
     isoCode: '258',
     flag: 'https://mikesaraus.github.io/per-country/flag/pf.svg',
   },
-  {
+  ga: {
     name: 'Gabon',
     code: 'GA',
     capital: 'Libreville',
@@ -1287,7 +1289,7 @@ exports.default = [
     isoCode: '266',
     flag: 'https://mikesaraus.github.io/per-country/flag/ga.svg',
   },
-  {
+  gm: {
     name: 'Gambia',
     code: 'GM',
     capital: 'Banjul',
@@ -1305,7 +1307,7 @@ exports.default = [
     isoCode: '270',
     flag: 'https://mikesaraus.github.io/per-country/flag/gm.svg',
   },
-  {
+  ge: {
     name: 'Georgia',
     code: 'GE',
     capital: 'Tbilisi',
@@ -1323,7 +1325,7 @@ exports.default = [
     isoCode: '268',
     flag: 'https://mikesaraus.github.io/per-country/flag/ge.svg',
   },
-  {
+  de: {
     name: 'Germany',
     code: 'DE',
     capital: 'Berlin',
@@ -1341,7 +1343,7 @@ exports.default = [
     isoCode: '276',
     flag: 'https://mikesaraus.github.io/per-country/flag/de.svg',
   },
-  {
+  gh: {
     name: 'Ghana',
     code: 'GH',
     capital: 'Accra',
@@ -1359,7 +1361,7 @@ exports.default = [
     isoCode: '288',
     flag: 'https://mikesaraus.github.io/per-country/flag/gh.svg',
   },
-  {
+  gi: {
     name: 'Gibraltar',
     code: 'GI',
     capital: 'Gibraltar',
@@ -1377,7 +1379,7 @@ exports.default = [
     isoCode: '292',
     flag: 'https://mikesaraus.github.io/per-country/flag/gi.svg',
   },
-  {
+  gr: {
     name: 'Greece',
     code: 'GR',
     capital: 'Athens',
@@ -1395,7 +1397,7 @@ exports.default = [
     isoCode: '300',
     flag: 'https://mikesaraus.github.io/per-country/flag/gr.svg',
   },
-  {
+  gl: {
     name: 'Greenland',
     code: 'GL',
     capital: 'Nuuk',
@@ -1413,7 +1415,7 @@ exports.default = [
     isoCode: '304',
     flag: 'https://mikesaraus.github.io/per-country/flag/gl.svg',
   },
-  {
+  gd: {
     name: 'Grenada',
     code: 'GD',
     capital: "St. George's",
@@ -1431,7 +1433,7 @@ exports.default = [
     isoCode: '308',
     flag: 'https://mikesaraus.github.io/per-country/flag/gd.svg',
   },
-  {
+  gp: {
     name: 'Guadeloupe',
     code: 'GP',
     capital: 'Basse-Terre',
@@ -1449,7 +1451,7 @@ exports.default = [
     isoCode: '312',
     flag: 'https://mikesaraus.github.io/per-country/flag/gp.svg',
   },
-  {
+  gu: {
     name: 'Guam',
     code: 'GU',
     capital: 'Hagåtña',
@@ -1467,7 +1469,7 @@ exports.default = [
     isoCode: '316',
     flag: 'https://mikesaraus.github.io/per-country/flag/gu.svg',
   },
-  {
+  gt: {
     name: 'Guatemala',
     code: 'GT',
     capital: 'Guatemala City',
@@ -1485,7 +1487,7 @@ exports.default = [
     isoCode: '320',
     flag: 'https://mikesaraus.github.io/per-country/flag/gt.svg',
   },
-  {
+  gn: {
     name: 'Guinea',
     code: 'GN',
     capital: 'Conakry',
@@ -1503,7 +1505,7 @@ exports.default = [
     isoCode: '324',
     flag: 'https://mikesaraus.github.io/per-country/flag/gn.svg',
   },
-  {
+  gw: {
     name: 'Guinea-Bissau',
     code: 'GW',
     capital: 'Bissau',
@@ -1521,7 +1523,7 @@ exports.default = [
     isoCode: '624',
     flag: 'https://mikesaraus.github.io/per-country/flag/gw.svg',
   },
-  {
+  gy: {
     name: 'Guyana',
     code: 'GY',
     capital: 'Georgetown',
@@ -1539,7 +1541,7 @@ exports.default = [
     isoCode: '328',
     flag: 'https://mikesaraus.github.io/per-country/flag/gy.svg',
   },
-  {
+  ht: {
     name: 'Haiti',
     code: 'HT',
     capital: 'Port-au-Prince',
@@ -1557,7 +1559,7 @@ exports.default = [
     isoCode: '332',
     flag: 'https://mikesaraus.github.io/per-country/flag/ht.svg',
   },
-  {
+  va: {
     name: 'Holy See',
     code: 'VA',
     capital: 'Rome',
@@ -1575,7 +1577,7 @@ exports.default = [
     isoCode: '336',
     flag: 'https://mikesaraus.github.io/per-country/flag/va.svg',
   },
-  {
+  hn: {
     name: 'Honduras',
     code: 'HN',
     capital: 'Tegucigalpa',
@@ -1593,7 +1595,7 @@ exports.default = [
     isoCode: '340',
     flag: 'https://mikesaraus.github.io/per-country/flag/hn.svg',
   },
-  {
+  hk: {
     name: 'Hong Kong',
     code: 'HK',
     capital: 'City of Victoria',
@@ -1611,7 +1613,7 @@ exports.default = [
     isoCode: '344',
     flag: 'https://mikesaraus.github.io/per-country/flag/hk.svg',
   },
-  {
+  hu: {
     name: 'Hungary',
     code: 'HU',
     capital: 'Budapest',
@@ -1629,7 +1631,7 @@ exports.default = [
     isoCode: '348',
     flag: 'https://mikesaraus.github.io/per-country/flag/hu.svg',
   },
-  {
+  is: {
     name: 'Iceland',
     code: 'IS',
     capital: 'Reykjavík',
@@ -1647,7 +1649,7 @@ exports.default = [
     isoCode: '352',
     flag: 'https://mikesaraus.github.io/per-country/flag/is.svg',
   },
-  {
+  in: {
     name: 'India',
     code: 'IN',
     capital: 'New Delhi',
@@ -1665,7 +1667,7 @@ exports.default = [
     isoCode: '356',
     flag: 'https://mikesaraus.github.io/per-country/flag/in.svg',
   },
-  {
+  id: {
     name: 'Indonesia',
     code: 'ID',
     capital: 'Jakarta',
@@ -1683,7 +1685,7 @@ exports.default = [
     isoCode: '360',
     flag: 'https://mikesaraus.github.io/per-country/flag/id.svg',
   },
-  {
+  ci: {
     name: "Côte d'Ivoire",
     code: 'CI',
     capital: 'Yamoussoukro',
@@ -1701,7 +1703,7 @@ exports.default = [
     isoCode: '384',
     flag: 'https://mikesaraus.github.io/per-country/flag/ci.svg',
   },
-  {
+  ir: {
     name: 'Iran (Islamic Republic of)',
     code: 'IR',
     capital: 'Tehran',
@@ -1719,7 +1721,7 @@ exports.default = [
     isoCode: '364',
     flag: 'https://mikesaraus.github.io/per-country/flag/ir.svg',
   },
-  {
+  iq: {
     name: 'Iraq',
     code: 'IQ',
     capital: 'Baghdad',
@@ -1737,7 +1739,7 @@ exports.default = [
     isoCode: '368',
     flag: 'https://mikesaraus.github.io/per-country/flag/iq.svg',
   },
-  {
+  ie: {
     name: 'Ireland',
     code: 'IE',
     capital: 'Dublin',
@@ -1755,7 +1757,7 @@ exports.default = [
     isoCode: '372',
     flag: 'https://mikesaraus.github.io/per-country/flag/ie.svg',
   },
-  {
+  il: {
     name: 'Israel',
     code: 'IL',
     capital: 'Jerusalem',
@@ -1773,7 +1775,7 @@ exports.default = [
     isoCode: '376',
     flag: 'https://mikesaraus.github.io/per-country/flag/il.svg',
   },
-  {
+  it: {
     name: 'Italy',
     code: 'IT',
     capital: 'Rome',
@@ -1791,7 +1793,7 @@ exports.default = [
     isoCode: '380',
     flag: 'https://mikesaraus.github.io/per-country/flag/it.svg',
   },
-  {
+  jm: {
     name: 'Jamaica',
     code: 'JM',
     capital: 'Kingston',
@@ -1809,7 +1811,7 @@ exports.default = [
     isoCode: '388',
     flag: 'https://mikesaraus.github.io/per-country/flag/jm.svg',
   },
-  {
+  jp: {
     name: 'Japan',
     code: 'JP',
     capital: 'Tokyo',
@@ -1827,7 +1829,7 @@ exports.default = [
     isoCode: '392',
     flag: 'https://mikesaraus.github.io/per-country/flag/jp.svg',
   },
-  {
+  jo: {
     name: 'Jordan',
     code: 'JO',
     capital: 'Amman',
@@ -1845,7 +1847,7 @@ exports.default = [
     isoCode: '400',
     flag: 'https://mikesaraus.github.io/per-country/flag/jo.svg',
   },
-  {
+  kz: {
     name: 'Kazakhstan',
     code: 'KZ',
     capital: 'Astana',
@@ -1863,7 +1865,7 @@ exports.default = [
     isoCode: '398',
     flag: 'https://mikesaraus.github.io/per-country/flag/kz.svg',
   },
-  {
+  ke: {
     name: 'Kenya',
     code: 'KE',
     capital: 'Nairobi',
@@ -1881,7 +1883,7 @@ exports.default = [
     isoCode: '404',
     flag: 'https://mikesaraus.github.io/per-country/flag/ke.svg',
   },
-  {
+  ki: {
     name: 'Kiribati',
     code: 'KI',
     capital: 'South Tarawa',
@@ -1899,7 +1901,7 @@ exports.default = [
     isoCode: '296',
     flag: 'https://mikesaraus.github.io/per-country/flag/ki.svg',
   },
-  {
+  kw: {
     name: 'Kuwait',
     code: 'KW',
     capital: 'Kuwait City',
@@ -1917,7 +1919,7 @@ exports.default = [
     isoCode: '414',
     flag: 'https://mikesaraus.github.io/per-country/flag/kw.svg',
   },
-  {
+  kg: {
     name: 'Kyrgyzstan',
     code: 'KG',
     capital: 'Bishkek',
@@ -1935,7 +1937,7 @@ exports.default = [
     isoCode: '417',
     flag: 'https://mikesaraus.github.io/per-country/flag/kg.svg',
   },
-  {
+  la: {
     name: "Lao People's Democratic Republic",
     code: 'LA',
     capital: 'Vientiane',
@@ -1953,7 +1955,7 @@ exports.default = [
     isoCode: '418',
     flag: 'https://mikesaraus.github.io/per-country/flag/la.svg',
   },
-  {
+  lv: {
     name: 'Latvia',
     code: 'LV',
     capital: 'Riga',
@@ -1971,7 +1973,7 @@ exports.default = [
     isoCode: '428',
     flag: 'https://mikesaraus.github.io/per-country/flag/lv.svg',
   },
-  {
+  lb: {
     name: 'Lebanon',
     code: 'LB',
     capital: 'Beirut',
@@ -1989,7 +1991,7 @@ exports.default = [
     isoCode: '422',
     flag: 'https://mikesaraus.github.io/per-country/flag/lb.svg',
   },
-  {
+  ls: {
     name: 'Lesotho',
     code: 'LS',
     capital: 'Maseru',
@@ -2007,7 +2009,7 @@ exports.default = [
     isoCode: '426',
     flag: 'https://mikesaraus.github.io/per-country/flag/ls.svg',
   },
-  {
+  lr: {
     name: 'Liberia',
     code: 'LR',
     capital: 'Monrovia',
@@ -2025,7 +2027,7 @@ exports.default = [
     isoCode: '430',
     flag: 'https://mikesaraus.github.io/per-country/flag/lr.svg',
   },
-  {
+  ly: {
     name: 'Libya',
     code: 'LY',
     capital: 'Tripoli',
@@ -2043,7 +2045,7 @@ exports.default = [
     isoCode: '434',
     flag: 'https://mikesaraus.github.io/per-country/flag/ly.svg',
   },
-  {
+  li: {
     name: 'Liechtenstein',
     code: 'LI',
     capital: 'Vaduz',
@@ -2061,7 +2063,7 @@ exports.default = [
     isoCode: '438',
     flag: 'https://mikesaraus.github.io/per-country/flag/li.svg',
   },
-  {
+  lt: {
     name: 'Lithuania',
     code: 'LT',
     capital: 'Vilnius',
@@ -2079,7 +2081,7 @@ exports.default = [
     isoCode: '440',
     flag: 'https://mikesaraus.github.io/per-country/flag/lt.svg',
   },
-  {
+  lu: {
     name: 'Luxembourg',
     code: 'LU',
     capital: 'Luxembourg',
@@ -2097,7 +2099,7 @@ exports.default = [
     isoCode: '442',
     flag: 'https://mikesaraus.github.io/per-country/flag/lu.svg',
   },
-  {
+  mo: {
     name: 'Macao',
     code: 'MO',
     capital: '',
@@ -2115,7 +2117,7 @@ exports.default = [
     isoCode: '446',
     flag: 'https://mikesaraus.github.io/per-country/flag/mo.svg',
   },
-  {
+  mk: {
     name: 'Macedonia (the former Yugoslav Republic of)',
     code: 'MK',
     capital: 'Skopje',
@@ -2133,7 +2135,7 @@ exports.default = [
     isoCode: '807',
     flag: 'https://mikesaraus.github.io/per-country/flag/mk.svg',
   },
-  {
+  mg: {
     name: 'Madagascar',
     code: 'MG',
     capital: 'Antananarivo',
@@ -2151,7 +2153,7 @@ exports.default = [
     isoCode: '450',
     flag: 'https://mikesaraus.github.io/per-country/flag/mg.svg',
   },
-  {
+  mw: {
     name: 'Malawi',
     code: 'MW',
     capital: 'Lilongwe',
@@ -2169,7 +2171,7 @@ exports.default = [
     isoCode: '454',
     flag: 'https://mikesaraus.github.io/per-country/flag/mw.svg',
   },
-  {
+  my: {
     name: 'Malaysia',
     code: 'MY',
     capital: 'Kuala Lumpur',
@@ -2187,7 +2189,7 @@ exports.default = [
     isoCode: '458',
     flag: 'https://mikesaraus.github.io/per-country/flag/my.svg',
   },
-  {
+  mv: {
     name: 'Maldives',
     code: 'MV',
     capital: 'Malé',
@@ -2205,7 +2207,7 @@ exports.default = [
     isoCode: '462',
     flag: 'https://mikesaraus.github.io/per-country/flag/mv.svg',
   },
-  {
+  ml: {
     name: 'Mali',
     code: 'ML',
     capital: 'Bamako',
@@ -2223,7 +2225,7 @@ exports.default = [
     isoCode: '466',
     flag: 'https://mikesaraus.github.io/per-country/flag/ml.svg',
   },
-  {
+  mt: {
     name: 'Malta',
     code: 'MT',
     capital: 'Valletta',
@@ -2241,7 +2243,7 @@ exports.default = [
     isoCode: '470',
     flag: 'https://mikesaraus.github.io/per-country/flag/mt.svg',
   },
-  {
+  mh: {
     name: 'Marshall Islands',
     code: 'MH',
     capital: 'Majuro',
@@ -2259,7 +2261,7 @@ exports.default = [
     isoCode: '584',
     flag: 'https://mikesaraus.github.io/per-country/flag/mh.svg',
   },
-  {
+  mq: {
     name: 'Martinique',
     code: 'MQ',
     capital: 'Fort-de-France',
@@ -2277,7 +2279,7 @@ exports.default = [
     isoCode: '474',
     flag: 'https://mikesaraus.github.io/per-country/flag/mq.svg',
   },
-  {
+  mr: {
     name: 'Mauritania',
     code: 'MR',
     capital: 'Nouakchott',
@@ -2295,7 +2297,7 @@ exports.default = [
     isoCode: '478',
     flag: 'https://mikesaraus.github.io/per-country/flag/mr.svg',
   },
-  {
+  mu: {
     name: 'Mauritius',
     code: 'MU',
     capital: 'Port Louis',
@@ -2313,7 +2315,7 @@ exports.default = [
     isoCode: '480',
     flag: 'https://mikesaraus.github.io/per-country/flag/mu.svg',
   },
-  {
+  yt: {
     name: 'Mayotte',
     code: 'YT',
     capital: 'Mamoudzou',
@@ -2331,7 +2333,7 @@ exports.default = [
     isoCode: '175',
     flag: 'https://mikesaraus.github.io/per-country/flag/yt.svg',
   },
-  {
+  mx: {
     name: 'Mexico',
     code: 'MX',
     capital: 'Mexico City',
@@ -2349,7 +2351,7 @@ exports.default = [
     isoCode: '484',
     flag: 'https://mikesaraus.github.io/per-country/flag/mx.svg',
   },
-  {
+  fm: {
     name: 'Micronesia (Federated States of)',
     code: 'FM',
     capital: 'Palikir',
@@ -2367,7 +2369,7 @@ exports.default = [
     isoCode: '583',
     flag: 'https://mikesaraus.github.io/per-country/flag/fm.svg',
   },
-  {
+  md: {
     name: 'Moldova (Republic of)',
     code: 'MD',
     capital: 'Chișinău',
@@ -2385,7 +2387,7 @@ exports.default = [
     isoCode: '498',
     flag: 'https://mikesaraus.github.io/per-country/flag/md.svg',
   },
-  {
+  mc: {
     name: 'Monaco',
     code: 'MC',
     capital: 'Monaco',
@@ -2403,7 +2405,7 @@ exports.default = [
     isoCode: '492',
     flag: 'https://mikesaraus.github.io/per-country/flag/mc.svg',
   },
-  {
+  mn: {
     name: 'Mongolia',
     code: 'MN',
     capital: 'Ulan Bator',
@@ -2421,7 +2423,7 @@ exports.default = [
     isoCode: '496',
     flag: 'https://mikesaraus.github.io/per-country/flag/mn.svg',
   },
-  {
+  me: {
     name: 'Montenegro',
     code: 'ME',
     capital: 'Podgorica',
@@ -2439,7 +2441,7 @@ exports.default = [
     isoCode: '499',
     flag: 'https://mikesaraus.github.io/per-country/flag/me.svg',
   },
-  {
+  ms: {
     name: 'Montserrat',
     code: 'MS',
     capital: 'Plymouth',
@@ -2457,7 +2459,7 @@ exports.default = [
     isoCode: '500',
     flag: 'https://mikesaraus.github.io/per-country/flag/ms.svg',
   },
-  {
+  ma: {
     name: 'Morocco',
     code: 'MA',
     capital: 'Rabat',
@@ -2475,7 +2477,7 @@ exports.default = [
     isoCode: '504',
     flag: 'https://mikesaraus.github.io/per-country/flag/ma.svg',
   },
-  {
+  mz: {
     name: 'Mozambique',
     code: 'MZ',
     capital: 'Maputo',
@@ -2493,7 +2495,7 @@ exports.default = [
     isoCode: '508',
     flag: 'https://mikesaraus.github.io/per-country/flag/mz.svg',
   },
-  {
+  mm: {
     name: 'Myanmar',
     code: 'MM',
     capital: 'Naypyidaw',
@@ -2511,7 +2513,7 @@ exports.default = [
     isoCode: '104',
     flag: 'https://mikesaraus.github.io/per-country/flag/mm.svg',
   },
-  {
+  na: {
     name: 'Namibia',
     code: 'NA',
     capital: 'Windhoek',
@@ -2529,7 +2531,7 @@ exports.default = [
     isoCode: '516',
     flag: 'https://mikesaraus.github.io/per-country/flag/na.svg',
   },
-  {
+  nr: {
     name: 'Nauru',
     code: 'NR',
     capital: 'Yaren',
@@ -2547,7 +2549,7 @@ exports.default = [
     isoCode: '520',
     flag: 'https://mikesaraus.github.io/per-country/flag/nr.svg',
   },
-  {
+  np: {
     name: 'Nepal',
     code: 'NP',
     capital: 'Kathmandu',
@@ -2565,7 +2567,7 @@ exports.default = [
     isoCode: '524',
     flag: 'https://mikesaraus.github.io/per-country/flag/np.svg',
   },
-  {
+  nl: {
     name: 'Netherlands',
     code: 'NL',
     capital: 'Amsterdam',
@@ -2583,7 +2585,7 @@ exports.default = [
     isoCode: '528',
     flag: 'https://mikesaraus.github.io/per-country/flag/nl.svg',
   },
-  {
+  nc: {
     name: 'New Caledonia',
     code: 'NC',
     capital: 'Nouméa',
@@ -2601,7 +2603,7 @@ exports.default = [
     isoCode: '540',
     flag: 'https://mikesaraus.github.io/per-country/flag/nc.svg',
   },
-  {
+  nz: {
     name: 'New Zealand',
     code: 'NZ',
     capital: 'Wellington',
@@ -2619,7 +2621,7 @@ exports.default = [
     isoCode: '554',
     flag: 'https://mikesaraus.github.io/per-country/flag/nz.svg',
   },
-  {
+  ni: {
     name: 'Nicaragua',
     code: 'NI',
     capital: 'Managua',
@@ -2637,7 +2639,7 @@ exports.default = [
     isoCode: '558',
     flag: 'https://mikesaraus.github.io/per-country/flag/ni.svg',
   },
-  {
+  ne: {
     name: 'Niger',
     code: 'NE',
     capital: 'Niamey',
@@ -2655,7 +2657,7 @@ exports.default = [
     isoCode: '562',
     flag: 'https://mikesaraus.github.io/per-country/flag/ne.svg',
   },
-  {
+  ng: {
     name: 'Nigeria',
     code: 'NG',
     capital: 'Abuja',
@@ -2673,7 +2675,7 @@ exports.default = [
     isoCode: '566',
     flag: 'https://mikesaraus.github.io/per-country/flag/ng.svg',
   },
-  {
+  nu: {
     name: 'Niue',
     code: 'NU',
     capital: 'Alofi',
@@ -2691,7 +2693,7 @@ exports.default = [
     isoCode: '570',
     flag: 'https://mikesaraus.github.io/per-country/flag/nu.svg',
   },
-  {
+  nf: {
     name: 'Norfolk Island',
     code: 'NF',
     capital: 'Kingston',
@@ -2709,7 +2711,7 @@ exports.default = [
     isoCode: '574',
     flag: 'https://mikesaraus.github.io/per-country/flag/nf.svg',
   },
-  {
+  kp: {
     name: "Korea (Democratic People's Republic of)",
     code: 'KP',
     capital: 'Pyongyang',
@@ -2727,7 +2729,7 @@ exports.default = [
     isoCode: '408',
     flag: 'https://mikesaraus.github.io/per-country/flag/kp.svg',
   },
-  {
+  mp: {
     name: 'Northern Mariana Islands',
     code: 'MP',
     capital: 'Saipan',
@@ -2745,7 +2747,7 @@ exports.default = [
     isoCode: '580',
     flag: 'https://mikesaraus.github.io/per-country/flag/mp.svg',
   },
-  {
+  no: {
     name: 'Norway',
     code: 'NO',
     capital: 'Oslo',
@@ -2763,7 +2765,7 @@ exports.default = [
     isoCode: '578',
     flag: 'https://mikesaraus.github.io/per-country/flag/no.svg',
   },
-  {
+  om: {
     name: 'Oman',
     code: 'OM',
     capital: 'Muscat',
@@ -2781,7 +2783,7 @@ exports.default = [
     isoCode: '512',
     flag: 'https://mikesaraus.github.io/per-country/flag/om.svg',
   },
-  {
+  pk: {
     name: 'Pakistan',
     code: 'PK',
     capital: 'Islamabad',
@@ -2799,7 +2801,7 @@ exports.default = [
     isoCode: '586',
     flag: 'https://mikesaraus.github.io/per-country/flag/pk.svg',
   },
-  {
+  pw: {
     name: 'Palau',
     code: 'PW',
     capital: 'Ngerulmud',
@@ -2817,7 +2819,7 @@ exports.default = [
     isoCode: '585',
     flag: 'https://mikesaraus.github.io/per-country/flag/pw.svg',
   },
-  {
+  ps: {
     name: 'Palestine, State of',
     code: 'PS',
     capital: 'Ramallah',
@@ -2835,7 +2837,7 @@ exports.default = [
     isoCode: '275',
     flag: 'https://mikesaraus.github.io/per-country/flag/ps.svg',
   },
-  {
+  pa: {
     name: 'Panama',
     code: 'PA',
     capital: 'Panama City',
@@ -2853,7 +2855,7 @@ exports.default = [
     isoCode: '591',
     flag: 'https://mikesaraus.github.io/per-country/flag/pa.svg',
   },
-  {
+  pg: {
     name: 'Papua New Guinea',
     code: 'PG',
     capital: 'Port Moresby',
@@ -2871,7 +2873,7 @@ exports.default = [
     isoCode: '598',
     flag: 'https://mikesaraus.github.io/per-country/flag/pg.svg',
   },
-  {
+  py: {
     name: 'Paraguay',
     code: 'PY',
     capital: 'Asunción',
@@ -2889,7 +2891,7 @@ exports.default = [
     isoCode: '600',
     flag: 'https://mikesaraus.github.io/per-country/flag/py.svg',
   },
-  {
+  pe: {
     name: 'Peru',
     code: 'PE',
     capital: 'Lima',
@@ -2907,7 +2909,7 @@ exports.default = [
     isoCode: '604',
     flag: 'https://mikesaraus.github.io/per-country/flag/pe.svg',
   },
-  {
+  ph: {
     name: 'Philippines',
     code: 'PH',
     capital: 'Manila',
@@ -2925,7 +2927,7 @@ exports.default = [
     isoCode: '608',
     flag: 'https://mikesaraus.github.io/per-country/flag/ph.svg',
   },
-  {
+  pl: {
     name: 'Poland',
     code: 'PL',
     capital: 'Warsaw',
@@ -2943,7 +2945,7 @@ exports.default = [
     isoCode: '616',
     flag: 'https://mikesaraus.github.io/per-country/flag/pl.svg',
   },
-  {
+  pt: {
     name: 'Portugal',
     code: 'PT',
     capital: 'Lisbon',
@@ -2961,7 +2963,7 @@ exports.default = [
     isoCode: '620',
     flag: 'https://mikesaraus.github.io/per-country/flag/pt.svg',
   },
-  {
+  pr: {
     name: 'Puerto Rico',
     code: 'PR',
     capital: 'San Juan',
@@ -2979,7 +2981,7 @@ exports.default = [
     isoCode: '630',
     flag: 'https://mikesaraus.github.io/per-country/flag/pr.svg',
   },
-  {
+  qa: {
     name: 'Qatar',
     code: 'QA',
     capital: 'Doha',
@@ -2997,7 +2999,7 @@ exports.default = [
     isoCode: '634',
     flag: 'https://mikesaraus.github.io/per-country/flag/qa.svg',
   },
-  {
+  xk: {
     name: 'Republic of Kosovo',
     code: 'XK',
     capital: 'Pristina',
@@ -3015,7 +3017,7 @@ exports.default = [
     isoCode: '383',
     flag: 'https://mikesaraus.github.io/per-country/flag/xk.svg',
   },
-  {
+  re: {
     name: 'Réunion',
     code: 'RE',
     capital: 'Saint-Denis',
@@ -3033,7 +3035,7 @@ exports.default = [
     isoCode: '638',
     flag: 'https://mikesaraus.github.io/per-country/flag/re.svg',
   },
-  {
+  ro: {
     name: 'Romania',
     code: 'RO',
     capital: 'Bucharest',
@@ -3051,7 +3053,7 @@ exports.default = [
     isoCode: '642',
     flag: 'https://mikesaraus.github.io/per-country/flag/ro.svg',
   },
-  {
+  ru: {
     name: 'Russian Federation',
     code: 'RU',
     capital: 'Moscow',
@@ -3069,7 +3071,7 @@ exports.default = [
     isoCode: '643',
     flag: 'https://mikesaraus.github.io/per-country/flag/ru.svg',
   },
-  {
+  rw: {
     name: 'Rwanda',
     code: 'RW',
     capital: 'Kigali',
@@ -3087,7 +3089,7 @@ exports.default = [
     isoCode: '646',
     flag: 'https://mikesaraus.github.io/per-country/flag/rw.svg',
   },
-  {
+  bl: {
     name: 'Saint Barthélemy',
     code: 'BL',
     capital: 'Gustavia',
@@ -3105,7 +3107,7 @@ exports.default = [
     isoCode: '652',
     flag: 'https://mikesaraus.github.io/per-country/flag/bl.svg',
   },
-  {
+  sh: {
     name: 'Saint Helena, Ascension and Tristan da Cunha',
     code: 'SH',
     capital: 'Jamestown',
@@ -3123,7 +3125,7 @@ exports.default = [
     isoCode: '654',
     flag: 'https://mikesaraus.github.io/per-country/flag/sh.svg',
   },
-  {
+  kn: {
     name: 'Saint Kitts and Nevis',
     code: 'KN',
     capital: 'Basseterre',
@@ -3141,7 +3143,7 @@ exports.default = [
     isoCode: '659',
     flag: 'https://mikesaraus.github.io/per-country/flag/kn.svg',
   },
-  {
+  lc: {
     name: 'Saint Lucia',
     code: 'LC',
     capital: 'Castries',
@@ -3159,7 +3161,7 @@ exports.default = [
     isoCode: '662',
     flag: 'https://mikesaraus.github.io/per-country/flag/lc.svg',
   },
-  {
+  mf: {
     name: 'Saint Martin (French part)',
     code: 'MF',
     capital: 'Marigot',
@@ -3177,7 +3179,7 @@ exports.default = [
     isoCode: '663',
     flag: 'https://mikesaraus.github.io/per-country/flag/mf.svg',
   },
-  {
+  pm: {
     name: 'Saint Pierre and Miquelon',
     code: 'PM',
     capital: 'Saint-Pierre',
@@ -3195,7 +3197,7 @@ exports.default = [
     isoCode: '666',
     flag: 'https://mikesaraus.github.io/per-country/flag/pm.svg',
   },
-  {
+  vc: {
     name: 'Saint Vincent and the Grenadines',
     code: 'VC',
     capital: 'Kingstown',
@@ -3213,7 +3215,7 @@ exports.default = [
     isoCode: '670',
     flag: 'https://mikesaraus.github.io/per-country/flag/vc.svg',
   },
-  {
+  ws: {
     name: 'Samoa',
     code: 'WS',
     capital: 'Apia',
@@ -3231,7 +3233,7 @@ exports.default = [
     isoCode: '882',
     flag: 'https://mikesaraus.github.io/per-country/flag/ws.svg',
   },
-  {
+  sm: {
     name: 'San Marino',
     code: 'SM',
     capital: 'City of San Marino',
@@ -3249,7 +3251,7 @@ exports.default = [
     isoCode: '674',
     flag: 'https://mikesaraus.github.io/per-country/flag/sm.svg',
   },
-  {
+  st: {
     name: 'Sao Tome and Principe',
     code: 'ST',
     capital: 'São Tomé',
@@ -3267,7 +3269,7 @@ exports.default = [
     isoCode: '678',
     flag: 'https://mikesaraus.github.io/per-country/flag/st.svg',
   },
-  {
+  sa: {
     name: 'Saudi Arabia',
     code: 'SA',
     capital: 'Riyadh',
@@ -3285,7 +3287,7 @@ exports.default = [
     isoCode: '682',
     flag: 'https://mikesaraus.github.io/per-country/flag/sa.svg',
   },
-  {
+  sn: {
     name: 'Senegal',
     code: 'SN',
     capital: 'Dakar',
@@ -3303,7 +3305,7 @@ exports.default = [
     isoCode: '686',
     flag: 'https://mikesaraus.github.io/per-country/flag/sn.svg',
   },
-  {
+  rs: {
     name: 'Serbia',
     code: 'RS',
     capital: 'Belgrade',
@@ -3321,7 +3323,7 @@ exports.default = [
     isoCode: '688',
     flag: 'https://mikesaraus.github.io/per-country/flag/rs.svg',
   },
-  {
+  sc: {
     name: 'Seychelles',
     code: 'SC',
     capital: 'Victoria',
@@ -3339,7 +3341,7 @@ exports.default = [
     isoCode: '690',
     flag: 'https://mikesaraus.github.io/per-country/flag/sc.svg',
   },
-  {
+  sl: {
     name: 'Sierra Leone',
     code: 'SL',
     capital: 'Freetown',
@@ -3357,7 +3359,7 @@ exports.default = [
     isoCode: '694',
     flag: 'https://mikesaraus.github.io/per-country/flag/sl.svg',
   },
-  {
+  sg: {
     name: 'Singapore',
     code: 'SG',
     capital: 'Singapore',
@@ -3375,7 +3377,7 @@ exports.default = [
     isoCode: '702',
     flag: 'https://mikesaraus.github.io/per-country/flag/sg.svg',
   },
-  {
+  sk: {
     name: 'Slovakia',
     code: 'SK',
     capital: 'Bratislava',
@@ -3393,7 +3395,7 @@ exports.default = [
     isoCode: '703',
     flag: 'https://mikesaraus.github.io/per-country/flag/sk.svg',
   },
-  {
+  si: {
     name: 'Slovenia',
     code: 'SI',
     capital: 'Ljubljana',
@@ -3411,7 +3413,7 @@ exports.default = [
     isoCode: '705',
     flag: 'https://mikesaraus.github.io/per-country/flag/si.svg',
   },
-  {
+  sb: {
     name: 'Solomon Islands',
     code: 'SB',
     capital: 'Honiara',
@@ -3429,7 +3431,7 @@ exports.default = [
     isoCode: '090',
     flag: 'https://mikesaraus.github.io/per-country/flag/sb.svg',
   },
-  {
+  so: {
     name: 'Somalia',
     code: 'SO',
     capital: 'Mogadishu',
@@ -3447,7 +3449,7 @@ exports.default = [
     isoCode: '706',
     flag: 'https://mikesaraus.github.io/per-country/flag/so.svg',
   },
-  {
+  za: {
     name: 'South Africa',
     code: 'ZA',
     capital: 'Pretoria',
@@ -3467,7 +3469,7 @@ exports.default = [
     isoCode: '710',
     flag: 'https://mikesaraus.github.io/per-country/flag/za.svg',
   },
-  {
+  kr: {
     name: 'Korea (Republic of)',
     code: 'KR',
     capital: 'Seoul',
@@ -3485,7 +3487,7 @@ exports.default = [
     isoCode: '410',
     flag: 'https://mikesaraus.github.io/per-country/flag/kr.svg',
   },
-  {
+  es: {
     name: 'Spain',
     code: 'ES',
     capital: 'Madrid',
@@ -3503,7 +3505,7 @@ exports.default = [
     isoCode: '724',
     flag: 'https://mikesaraus.github.io/per-country/flag/es.svg',
   },
-  {
+  lk: {
     name: 'Sri Lanka',
     code: 'LK',
     capital: 'Colombo',
@@ -3523,7 +3525,7 @@ exports.default = [
     isoCode: '144',
     flag: 'https://mikesaraus.github.io/per-country/flag/lk.svg',
   },
-  {
+  sd: {
     name: 'Sudan',
     code: 'SD',
     capital: 'Khartoum',
@@ -3541,7 +3543,7 @@ exports.default = [
     isoCode: '729',
     flag: 'https://mikesaraus.github.io/per-country/flag/sd.svg',
   },
-  {
+  sr: {
     name: 'Suriname',
     code: 'SR',
     capital: 'Paramaribo',
@@ -3559,7 +3561,7 @@ exports.default = [
     isoCode: '740',
     flag: 'https://mikesaraus.github.io/per-country/flag/sr.svg',
   },
-  {
+  sz: {
     name: 'Swaziland',
     code: 'SZ',
     capital: 'Lobamba',
@@ -3577,7 +3579,7 @@ exports.default = [
     isoCode: '748',
     flag: 'https://mikesaraus.github.io/per-country/flag/sz.svg',
   },
-  {
+  se: {
     name: 'Sweden',
     code: 'SE',
     capital: 'Stockholm',
@@ -3595,7 +3597,7 @@ exports.default = [
     isoCode: '752',
     flag: 'https://mikesaraus.github.io/per-country/flag/se.svg',
   },
-  {
+  ch: {
     name: 'Switzerland',
     code: 'CH',
     capital: 'Bern',
@@ -3613,7 +3615,7 @@ exports.default = [
     isoCode: '756',
     flag: 'https://mikesaraus.github.io/per-country/flag/ch.svg',
   },
-  {
+  sy: {
     name: 'Syrian Arab Republic',
     code: 'SY',
     capital: 'Damascus',
@@ -3631,7 +3633,7 @@ exports.default = [
     isoCode: '760',
     flag: 'https://mikesaraus.github.io/per-country/flag/sy.svg',
   },
-  {
+  tw: {
     name: 'Taiwan',
     code: 'TW',
     capital: 'Taipei',
@@ -3649,7 +3651,7 @@ exports.default = [
     isoCode: '158',
     flag: 'https://mikesaraus.github.io/per-country/flag/tw.svg',
   },
-  {
+  tj: {
     name: 'Tajikistan',
     code: 'TJ',
     capital: 'Dushanbe',
@@ -3667,7 +3669,7 @@ exports.default = [
     isoCode: '762',
     flag: 'https://mikesaraus.github.io/per-country/flag/tj.svg',
   },
-  {
+  tz: {
     name: 'Tanzania, United Republic of',
     code: 'TZ',
     capital: 'Dodoma',
@@ -3685,7 +3687,7 @@ exports.default = [
     isoCode: '834',
     flag: 'https://mikesaraus.github.io/per-country/flag/tz.svg',
   },
-  {
+  th: {
     name: 'Thailand',
     code: 'TH',
     capital: 'Bangkok',
@@ -3703,7 +3705,7 @@ exports.default = [
     isoCode: '764',
     flag: 'https://mikesaraus.github.io/per-country/flag/th.svg',
   },
-  {
+  tl: {
     name: 'Timor-Leste',
     code: 'TL',
     capital: 'Dili',
@@ -3721,7 +3723,7 @@ exports.default = [
     isoCode: '626',
     flag: 'https://mikesaraus.github.io/per-country/flag/tl.svg',
   },
-  {
+  tg: {
     name: 'Togo',
     code: 'TG',
     capital: 'Lomé',
@@ -3739,7 +3741,7 @@ exports.default = [
     isoCode: '768',
     flag: 'https://mikesaraus.github.io/per-country/flag/tg.svg',
   },
-  {
+  tk: {
     name: 'Tokelau',
     code: 'TK',
     capital: 'Fakaofo',
@@ -3757,7 +3759,7 @@ exports.default = [
     isoCode: '772',
     flag: 'https://mikesaraus.github.io/per-country/flag/tk.svg',
   },
-  {
+  to: {
     name: 'Tonga',
     code: 'TO',
     capital: "Nuku'alofa",
@@ -3775,7 +3777,7 @@ exports.default = [
     isoCode: '776',
     flag: 'https://mikesaraus.github.io/per-country/flag/to.svg',
   },
-  {
+  tt: {
     name: 'Trinidad and Tobago',
     code: 'TT',
     capital: 'Port of Spain',
@@ -3793,7 +3795,7 @@ exports.default = [
     isoCode: '780',
     flag: 'https://mikesaraus.github.io/per-country/flag/tt.svg',
   },
-  {
+  tn: {
     name: 'Tunisia',
     code: 'TN',
     capital: 'Tunis',
@@ -3811,7 +3813,7 @@ exports.default = [
     isoCode: '788',
     flag: 'https://mikesaraus.github.io/per-country/flag/tn.svg',
   },
-  {
+  tr: {
     name: 'Turkey',
     code: 'TR',
     capital: 'Ankara',
@@ -3829,7 +3831,7 @@ exports.default = [
     isoCode: '792',
     flag: 'https://mikesaraus.github.io/per-country/flag/tr.svg',
   },
-  {
+  tm: {
     name: 'Turkmenistan',
     code: 'TM',
     capital: 'Ashgabat',
@@ -3847,7 +3849,7 @@ exports.default = [
     isoCode: '795',
     flag: 'https://mikesaraus.github.io/per-country/flag/tm.svg',
   },
-  {
+  tc: {
     name: 'Turks and Caicos Islands',
     code: 'TC',
     capital: 'Cockburn Town',
@@ -3865,7 +3867,7 @@ exports.default = [
     isoCode: '796',
     flag: 'https://mikesaraus.github.io/per-country/flag/tc.svg',
   },
-  {
+  tv: {
     name: 'Tuvalu',
     code: 'TV',
     capital: 'Funafuti',
@@ -3883,7 +3885,7 @@ exports.default = [
     isoCode: '798',
     flag: 'https://mikesaraus.github.io/per-country/flag/tv.svg',
   },
-  {
+  ug: {
     name: 'Uganda',
     code: 'UG',
     capital: 'Kampala',
@@ -3901,7 +3903,7 @@ exports.default = [
     isoCode: '800',
     flag: 'https://mikesaraus.github.io/per-country/flag/ug.svg',
   },
-  {
+  ua: {
     name: 'Ukraine',
     code: 'UA',
     capital: 'Kiev',
@@ -3919,7 +3921,7 @@ exports.default = [
     isoCode: '804',
     flag: 'https://mikesaraus.github.io/per-country/flag/ua.svg',
   },
-  {
+  ae: {
     name: 'United Arab Emirates',
     code: 'AE',
     capital: 'Abu Dhabi',
@@ -3937,7 +3939,7 @@ exports.default = [
     isoCode: '784',
     flag: 'https://mikesaraus.github.io/per-country/flag/ae.svg',
   },
-  {
+  gb: {
     name: 'United Kingdom of Great Britain and Northern Ireland',
     code: 'GB',
     capital: 'London',
@@ -3955,7 +3957,7 @@ exports.default = [
     isoCode: '826',
     flag: 'https://mikesaraus.github.io/per-country/flag/gb.svg',
   },
-  {
+  us: {
     name: 'United States of America',
     code: 'US',
     capital: 'Washington, D.C.',
@@ -3975,7 +3977,7 @@ exports.default = [
     isoCode: '840',
     flag: 'https://mikesaraus.github.io/per-country/flag/us.svg',
   },
-  {
+  uy: {
     name: 'Uruguay',
     code: 'UY',
     capital: 'Montevideo',
@@ -3993,7 +3995,7 @@ exports.default = [
     isoCode: '858',
     flag: 'https://mikesaraus.github.io/per-country/flag/uy.svg',
   },
-  {
+  uz: {
     name: 'Uzbekistan',
     code: 'UZ',
     capital: 'Tashkent',
@@ -4011,7 +4013,7 @@ exports.default = [
     isoCode: '860',
     flag: 'https://mikesaraus.github.io/per-country/flag/uz.svg',
   },
-  {
+  vu: {
     name: 'Vanuatu',
     code: 'VU',
     capital: 'Port Vila',
@@ -4029,7 +4031,7 @@ exports.default = [
     isoCode: '548',
     flag: 'https://mikesaraus.github.io/per-country/flag/vu.svg',
   },
-  {
+  ve: {
     name: 'Venezuela (Bolivarian Republic of)',
     code: 'VE',
     capital: 'Caracas',
@@ -4047,7 +4049,7 @@ exports.default = [
     isoCode: '862',
     flag: 'https://mikesaraus.github.io/per-country/flag/ve.svg',
   },
-  {
+  vn: {
     name: 'Viet Nam',
     code: 'VN',
     capital: 'Hanoi',
@@ -4065,7 +4067,7 @@ exports.default = [
     isoCode: '704',
     flag: 'https://mikesaraus.github.io/per-country/flag/vn.svg',
   },
-  {
+  wf: {
     name: 'Wallis and Futuna',
     code: 'WF',
     capital: 'Mata-Utu',
@@ -4083,7 +4085,7 @@ exports.default = [
     isoCode: '876',
     flag: 'https://mikesaraus.github.io/per-country/flag/wf.svg',
   },
-  {
+  ye: {
     name: 'Yemen',
     code: 'YE',
     capital: "Sana'a",
@@ -4101,7 +4103,7 @@ exports.default = [
     isoCode: '887',
     flag: 'https://mikesaraus.github.io/per-country/flag/ye.svg',
   },
-  {
+  zm: {
     name: 'Zambia',
     code: 'ZM',
     capital: 'Lusaka',
@@ -4119,7 +4121,7 @@ exports.default = [
     isoCode: '894',
     flag: 'https://mikesaraus.github.io/per-country/flag/zm.svg',
   },
-  {
+  zw: {
     name: 'Zimbabwe',
     code: 'ZW',
     capital: 'Harare',
@@ -4139,4 +4141,6 @@ exports.default = [
     isoCode: '716',
     flag: 'https://mikesaraus.github.io/per-country/flag/zw.svg',
   },
-]
+}
+
+module.exports = { country, countries: Object.values(country) }
