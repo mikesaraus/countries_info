@@ -3,16 +3,16 @@
 ## Install the package
 
 ```bash
-npm i country-information
+npm i per-country
 ```
 
 ## Usage require() and import()
 
 ```js
-const country = require('country-information')
+const country = require('per-country')
 
 // ES module
-import * as country from 'country-information'
+import * as country from 'per-country'
 ```
 
 ```json
