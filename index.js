@@ -1,4 +1,4 @@
-;[
+exports.default = [
   {
     name: 'Afghanistan',
     code: 'AF',

@@ -9,13 +9,13 @@ npm i per-country
 ## Usage require() and import()
 
 ```js
-const country = require('per-country')
+const countries = require('per-country').default
 
 // ES module
-import * as country from 'per-country'
+import countries from 'per-country'
 ```
 
-```json
+```js
 [
     ...,
     {
