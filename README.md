@@ -34,7 +34,7 @@ import * as country from 'country-information'
       },
       "dialling_code": "63",
       "isoCode": "608",
-      "flag": "https://countryflagsapi.com/svg/ph"
+      "flag": "https://mikesaraus.github.io/per-country/flag/ph.svg"
     },
     ...
 ]
