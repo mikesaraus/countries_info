@@ -1,10 +1,10 @@
 {
-  "name": "country-information",
+  "name": "per-country",
   "version": "1.0.0",
   "description": "Country Information",
   "productName": "Country Information",
   "author": "Mike Saraus (https://github.com/mikesaraus)",
-  "main": "country-information.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo 'No Test Found'"
   },
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikesaraus/country-information.git"
+    "url": "git+https://github.com/mikesaraus/per-country.git"
   },
   "bugs": {
-    "url": "https://github.com/mikesaraus/country-information/issues"
+    "url": "https://github.com/mikesaraus/per-country/issues"
   },
-  "homepage": "https://github.com/mikesaraus/country-information#readme"
+  "homepage": "https://github.com/mikesaraus/per-country#readme"
 }
