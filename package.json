@@ -1,18 +1,18 @@
 {
   "name": "per-country",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Country Information",
   "productName": "Country Information",
   "author": "Mike Saraus (https://github.com/mikesaraus)",
   "main": "index.js",
+  "files": [
+    "flag/",
+    "index.js"
+  ],
   "scripts": {
     "test": "echo 'No test specified'"
   },
   "license": "ISC",
-  "engines": {
-    "node": "^18 || ^16 || ^14.19",
-    "npm": ">= 6.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikesaraus/per-country.git"
